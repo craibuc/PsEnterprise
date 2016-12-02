@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsEnterprise", "PsEnterprise\PsEnterprise.csproj", "{4F846F20-4412-4FB3-BDFA-0345DADD5FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsEnterpriseTests", "PsEnterpriseTests\PsEnterpriseTests.csproj", "{1B725474-D476-4013-BB20-2A894302CCD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A218C3DD-0FF4-4C58-8387-C759AF9E5D66}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		PsEnterprise.vsmdi = PsEnterprise.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PsEnterprise.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F846F20-4412-4FB3-BDFA-0345DADD5FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F846F20-4412-4FB3-BDFA-0345DADD5FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F846F20-4412-4FB3-BDFA-0345DADD5FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F846F20-4412-4FB3-BDFA-0345DADD5FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B725474-D476-4013-BB20-2A894302CCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B725474-D476-4013-BB20-2A894302CCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B725474-D476-4013-BB20-2A894302CCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B725474-D476-4013-BB20-2A894302CCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
